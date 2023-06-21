@@ -1,6 +1,7 @@
 # B_factor_codes_repository
 
-Data  .npy file:
+We have converted the data from PDB to input (x) and output (y) file. Using the link below, .npy files can be downloaded and directly be used to run the training and testing codes.
+.npy file link:
 https://drive.google.com/drive/folders/1uNgl5bi6Wc7Np_BN3PkVGyqr4U6pNTng?usp=share_link
 
 Training files:
