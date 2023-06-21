@@ -199,8 +199,8 @@ optimizer = torch.optim.Adam(model.parameters(), lr=init_lr)
 
 ## FIXME
 # training loop
-all_x = np.load('/home/apa2237/Protein_BetaFactor/dataloader_betanormalized/x_61046' + '.npy', allow_pickle=True)
-all_y = np.load('/home/apa2237/Protein_BetaFactor/dataloader_betanormalized/y_61046' + '.npy', allow_pickle=True)
+all_x = np.load('./x_61046' + '.npy', allow_pickle=True)
+all_y = np.load('.y_61046' + '.npy', allow_pickle=True)
 
 for epoch in range(num_epochs):
   loop = 0
@@ -264,7 +264,7 @@ for epoch in range(num_epochs):
   
   if (epoch%1 == 0):
     # print(f'Learning rate in epoch {epoch+1} was', cur_lr)
-    torch.save(model, f'/home/apa2237/Protein_BetaFactor/Model_35/epoch_{epoch+1}.pth') ##FIXME
+    torch.save(model, f'./Model/epoch_{epoch+1}.pth') ##FIXME
     writer.add_scalar("Loss per epoch/train", avg_loss, epoch)
 
     with torch.no_grad():
