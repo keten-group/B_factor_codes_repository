@@ -13,4 +13,6 @@ Test files:
 1) test_all_features.ipynb: Code which uses all features
 2) test_only_primary_Sequence.ipynb: Code which uses only primary sequence
 
-NOTE: Before running any code, please check all the paths
+NOTE: 
+1) Before running any code, please check all the paths
+2) First run the training code to get the optimized model. Then use the optimized model in the test code.
