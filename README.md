@@ -1,4 +1,5 @@
 # B_factor_codes_repository
+The published paper for this code can be found here: https://www.cell.com/patterns/pdf/S2666-3899(23)00160-5.pdf
 
 We have converted the data from PDB to input (x) and output (y) file. Using the link below, .npy files can be downloaded and directly be used to run the training and testing codes.
 
@@ -21,7 +22,9 @@ The **one-hot encoding** for amino acids is generated based on the following seq
 
 **Checkpoint:**
 
-We have provided a model checkpoint in folder named "checkpoint". 
+We have provided a model checkpoint in a folder named "checkpoint". 
+- b_factor_with_all_features.pth: checkpoint when all the features are used.
+- b_factor_model.pth: checkpoint when only the primary sequence is used as a feature. 
 
 NOTE: 
 1) Before running any code, please check all the paths
