@@ -23,7 +23,7 @@ The **one-hot encoding** for amino acids is generated based on the following seq
 **Checkpoint:**
 
 We have provided a model checkpoint in a folder named "checkpoint". 
-- b_factor_with_all_features.pth: checkpoint when all the features are used.
+- b_factor_all_features.pth: checkpoint when all the features are used.
 - b_factor_model.pth: checkpoint when only the primary sequence is used as a feature. 
 
 NOTE: 
